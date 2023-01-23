@@ -310,7 +310,7 @@ h6 {
   background: url("../img/HYDRA\ FACIAL.jpg") center center;
   background-size: cover;
   position: relative;
-  margin-top: 70px;
+  margin-top: 60px;
   padding: 0;
 }
 
@@ -1472,4 +1472,155 @@ p.footerlinks a {
 
 .footer_whats {
   background: #32d34f;
+}
+
+
+/* media query */
+
+@media screen and (max-width:425px) {
+  .logo.me-auto {
+    width: 40%;
+  }
+
+  .header-social-links {
+    margin: 0 0px 0 0;
+  }
+
+  .header-social-links a {
+    color: #000000;
+    transition: 0.3s;
+    font-size: 12px;
+  }
+
+  #hero {
+    height: calc(35vh - 70px);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #hero {
+    width: 100%;
+    height: 33vh;
+    background: url("../img/HYDRA\ FACIAL.jpg") center center;
+    background-size: cover;
+    position: relative;
+    margin-top: 60px;
+    padding: 0;
+  }
+
+  section {
+    padding: 25px 0;
+  }
+
+  .section-title h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+    position: relative;
+  }
+
+  .contact .php-email-form input {
+    height: 40px;
+  }
+
+  .contact .php-email-form button[type=submit] {
+    background: #c081ff;
+    border: 0;
+    padding: 6px 22px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+  }
+
+  .contact .php-email-form {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+  }
+
+  .copyright {
+    text-align: center !important;
+    margin-bottom: 10px;
+  }
+
+  #footer {
+    color: #d1d1d1;
+    font-size: 14px;
+    background: #242424;
+    margin-top: 3em;
+  }
+
+  .social-menu ul li a {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    /* background-color: #fff; */
+    text-align: center;
+    transition: .6s;
+    /* box-shadow: 0 5px 4px rgb(0 0 0 / 50%); */
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+  }
+
+  .social-menu {
+    position: fixed;
+    top: 35%;
+    left: 0;
+  }
+
+  .float-button-whatsapp {
+    background: #0dc143;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .float-button-call {
+    background: #a55eea;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 95px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .float-button-call i {
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .float-button-whatsapp i {
+    font-size: 26px;
+    color: #fff;
+  }
+}
+
+@media screen and (min-width:426px) and (max-width:768px) {
+  #hero {
+    width: 100%;
+    height: 65vh;
+    background: url("../img/HYDRA\ FACIAL.jpg") center center;
+    background-size: cover;
+    position: relative;
+    margin-top: 60px;
+    padding: 0;
+  }
+
+  section {
+    padding: 80px 0;
+  }
 }
