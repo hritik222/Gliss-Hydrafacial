@@ -1,16 +1,10 @@
-
-body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
-}
-
 a {
-  color: #3498db;
+  color: #a55eea;
   text-decoration: none;
 }
 
 a:hover {
-  color: #5faee3;
+  color: #a45eeab4;
   text-decoration: none;
 }
 
@@ -23,38 +17,8 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
-.back-to-top {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: 15px;
-  z-index: 996;
-  background: #3498db;
-  width: 40px;
-  height: 40px;
-  border-radius: 4px;
-  transition: all 0.4s;
-}
 
-.back-to-top i {
-  font-size: 28px;
-  color: #fff;
-  line-height: 0;
-}
 
-.back-to-top:hover {
-  background: #57aae1;
-  color: #fff;
-}
-
-.back-to-top.active {
-  visibility: visible;
-  opacity: 1;
-}
 
 /*--------------------------------------------------------------
 # Header
@@ -343,14 +307,14 @@ h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: url("../img/hero-bg.jpg") center center;
+  background: url("../img/HYDRA\ FACIAL.jpg") center center;
   background-size: cover;
   position: relative;
   margin-top: 70px;
   padding: 0;
 }
 
-#hero:before {
+/* #hero:before {
   content: "";
   background: rgb(56 64 70 / 41%);
   position: absolute;
@@ -358,7 +322,7 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
-}
+} */
 
 #hero .container {
   z-index: 2;
@@ -423,11 +387,11 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 120px 0;
 }
 
 .section-bg {
-  background-color: #f7fbfe;
+  background-color: #a55eea61;
 }
 
 .section-title {
@@ -460,7 +424,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #3498db;
+  background: #a55eea;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -493,7 +457,7 @@ section {
 }
 
 .what-we-do .icon-box .icon i {
-  color: #3498db;
+  color: #a55eea;
   font-size: 28px;
 }
 
@@ -521,7 +485,7 @@ section {
 
 .what-we-do .icon-box:hover h4 a,
 .what-we-do .icon-box:hover .icon i {
-  color: #3498db;
+  color: #a55eea;
 }
 
 /*--------------------------------------------------------------
@@ -556,7 +520,7 @@ section {
   left: 0;
   top: 0;
   font-size: 22px;
-  color: #3498db;
+  color: #a55eea;
 }
 
 .about .icon-boxes {
@@ -571,7 +535,7 @@ section {
 
 .about .icon-boxes i {
   font-size: 48px;
-  color: #3498db;
+  color: #a55eea;
 }
 
 .about .icon-boxes p {
@@ -1097,7 +1061,7 @@ section {
 }
 
 .contact .info:hover i {
-  background: #3498db;
+  background: #a55eea;
   color: #fff;
 }
 
@@ -1178,7 +1142,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #3498db;
+  background: #c081ff;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1187,7 +1151,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #5faee3;
+  background: #a953ff;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1264,6 +1228,7 @@ section {
   color: #d1d1d1;
   font-size: 14px;
   background: #242424;
+  margin-top: 6em;
 }
 
 #footer .footer-top {
@@ -1311,7 +1276,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #3498db;
+  color: #a55eea;
   font-size: 18px;
   line-height: 1;
 }
@@ -1335,7 +1300,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #3498db;
+  color: #a55eea;
 }
 
 #footer .footer-newsletter {
@@ -1417,4 +1382,94 @@ p.footerlinks a {
   text-decoration: none;
   color: #fff;
   margin-left: 5px;
+}
+
+/* flaot button css */
+
+.float-button-whatsapp {
+  background: #0dc143;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.float-button-whatsapp i {
+  font-size: 28px;
+  color: #fff;
+}
+
+.float-button-call {
+  background: #a55eea;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 92px;
+  right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.float-button-call i {
+  font-size: 20px;
+  color: #fff;
+}
+
+
+/* float social icon */
+
+.social-menu {
+  position: fixed;
+  top: 40%;
+  left: 0;
+}
+
+.social-menu ul {
+  padding: 0;
+  list-style: none;
+}
+
+.social-menu ul li a {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  /* background-color: #fff; */
+  text-align: center;
+  transition: .6s;
+  /* box-shadow: 0 5px 4px rgb(0 0 0 / 50%); */
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: center;
+}
+
+.footer_twitter {
+  background: #1da1f2;
+}
+
+.footer_insta {
+  background: #f60675;
+}
+
+.footer_face {
+  background: #4867aa;
+}
+
+.footer_youtube {
+  background: #fe0000;
+}
+
+.footer_pintrest {
+  background: #b7081b;
+}
+
+.footer_whats {
+  background: #32d34f;
 }
