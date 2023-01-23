@@ -1389,8 +1389,8 @@ p.footerlinks a {
 .float-button-whatsapp {
   background: #0dc143;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   position: fixed;
   bottom: 40px;
   right: 40px;
@@ -1400,17 +1400,17 @@ p.footerlinks a {
 }
 
 .float-button-whatsapp i {
-  font-size: 28px;
+  font-size: 33px;
   color: #fff;
 }
 
 .float-button-call {
   background: #a55eea;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   position: fixed;
-  bottom: 92px;
+  bottom: 100px;
   right: 40px;
   display: flex;
   align-items: center;
@@ -1418,7 +1418,7 @@ p.footerlinks a {
 }
 
 .float-button-call i {
-  font-size: 20px;
+  font-size: 24px;
   color: #fff;
 }
 
@@ -1438,8 +1438,8 @@ p.footerlinks a {
 
 .social-menu ul li a {
   position: relative;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   /* background-color: #fff; */
   text-align: center;
   transition: .6s;
